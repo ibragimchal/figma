@@ -1,0 +1,164 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0 350px 0px 0px;
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.header {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("../images/Medical-muscle.png");
+    padding: 30px 0 0 0;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.login-login {
+    padding-right: 50px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.login-btn {
+    width: 137px;
+    height: 52px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #98bb7d;
+    color: #FFFFFF;
+}
+
+.arrow-rght {
+    width: 12px;
+    height: 10px;
+    padding-left: 15px;
+}
+
+.logo {
+    padding-right: 38px;
+}
+
+.login,
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    padding-right: 21px;
+}
+
+.headline-title {
+    padding-top: 221px;
+    padding-left: 250px;
+    padding-right: 254px;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    margin: 0;
+}
+
+.headline {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.headline-text {
+    width: 400px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 38px 338px;
+    margin: 0;
+}
+
+.headline-btn {
+    margin-bottom: 152px;
+    width: 133px;
+    height: 52px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #98bb7d;
+    color: #FFFFFF;
+}
+
+.red-line {
+    width: 94px;
+    height: 7px;
+    background: #FF7171;
+}
+
+.part-one {
+    width: 1440px;
+    height: 849px;
+    background-color: #2D4059;
+}
+
+.partone-left {
+    width: 507px;
+    height: 296px;
+    padding: 276.35px 543px 276.35px 0;
+}
+
+.partone-head {
+    width: 352px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.partone-text {
+    width: 345px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.learn-more {
+    margin-top: 35px;
+}
+
+.learnmore-btn {
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    color: #96BB7C;
+}
+
+.learnmore-img {
+    margin-left: 10px;
+    width: 9px;
+    height: 16px;
+}
