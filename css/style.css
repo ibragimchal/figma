@@ -8,6 +8,11 @@ ul {
     list-style: none;
 }
 
+.true {
+    display: flex;
+    align-items: center;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -124,14 +129,13 @@ body {
 }
 
 .part-one {
-    /* width: 1440px; */
     height: 849px;
     background-color: #2D4059;
 }
 
+.partone-left,
 .partone-left {
-    /* width: 507px;
-    height: 296px; */
+    width: 45%;
 }
 
 .partone-head {
@@ -165,4 +169,103 @@ body {
     margin-left: 10px;
     width: 9px;
     height: 16px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.left-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.first-card,
+.second-card,
+.third-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    height: 290px;
+    background-color: #FFFFFF;
+    padding: 35px 40px;
+}
+
+.second-card {
+    margin-top: 24px;
+}
+
+.red-item,
+.secondcard-reditem,
+.thirdcard-reditem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px 19px;
+    background: #FF7171;
+    border-radius: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.reditem-icon,
+.secondcard-reditemicon,
+.thirdcard-reditemicon {
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+}
+
+.firstcard-other,
+.secondcard-other,
+.third-other {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstcard-title,
+.secondcard-title,
+.thirdcard-title {
+    color: #252B42;
+    margin-top: 20px;
+}
+
+.firstcard-line,
+.secondcard-line,
+.thirdcard-line {
+    margin-top: 20px;
+    width: 50px;
+    height: 2px;
+    background: #FF7171;
+}
+
+.firstcard-text,
+.secondcard-text,
+.thirdcard-text {
+    font-weight: 400;
+    color: #737373;
+    height: 60px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    width: 132px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.right-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.third-card {
+    margin-left: 30px;
+    margin-top: 200px;
+    margin-right: 5px;
 }
